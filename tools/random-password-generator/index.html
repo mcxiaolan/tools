@@ -13,8 +13,7 @@
 function preview() 
 { 
 bdhtml=window.document.body.innerHTML; 
-sprnstr="<!--startprint-->"; 
-eprnstr="<!--endprint-->"; 
+sprnstr="<div id="random-password"></div>"; 
 prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17); 
 prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr)); 
 window.document.body.innerHTML=prnhtml; 
@@ -71,9 +70,7 @@ window.print();
                 <button class="generate button" type="button" onclick="generatePassword()">生成密码</button>
                 <div class="input-container">
                     生成的随机密码: 
-<!--startprint-->
                     <div id="random-password"></div>
-<!--endprint-->
                 </div>
                 <button class="copy button" type ="button" onClick="copyToClip()"> 复制到粘贴板 </button>
                 <button class="download button" type="button" onClick="preview()"> 保存为PDF </button>
