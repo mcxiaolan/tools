@@ -1,0 +1,26 @@
+[{
+	"_id": "5ce77a75afdec884fab9599d",
+	"classify": "［工具］图片",
+	"icon": "czs-image-l",
+	"sites": [ {
+		"name": "Bing 图片 API",
+		"href": "https://bing.ltya.top/#/use",
+		"desc": "必应每日一图或随机显示指定的最近图片。",
+		"logo": "/images/bing.svg"
+	}]
+},{
+	"_id": "5ce77a75afdec884fab959a5",
+	"classify": "［友链］",
+	"icon": "czs-link-l",
+	"sites": [{
+		"name": "个人主页",
+		"href": "https://www.ltya.top/",
+		"desc": "岚天呀的个人主页。",
+		"logo": "https://cravatar.cn/avatar/5af06b461740fb2bd7467b8561399703?s=64"
+	}, {
+		"name": "岚天小窝",
+		"href": "https://blog.ltya.top/",
+		"desc": "岚天呀的破博客。",
+		"logo": "https://cravatar.cn/avatar/5af06b461740fb2bd7467b8561399703?s=64"
+	}]
+}]
