@@ -1,5 +1,15 @@
 [{
-	"_id": "5ce77a75afdec884fab9599d",
+	"_id": "5ce77a75afdec884fab95900",
+	"classify": "［工具］实用",
+	"icon": "fa-solid fa-toolbox",
+	"sites": [ {
+		"name": "随机密码生成器",
+		"href": "/tools/random-password-generator/",
+		"desc": "不再为写密码而纠结。",
+		"logo": "/images/key.svg"
+	}]
+}, {
+	"_id": "5ce77a75afdec884fab95901",
 	"classify": "［工具］图片",
 	"icon": "czs-image-l",
 	"sites": [ {
@@ -8,8 +18,10 @@
 		"desc": "必应每日一图或随机显示指定的最近图片。",
 		"logo": "/images/bing.svg"
 	}]
-},{
-	"_id": "5ce77a75afdec884fab959a5",
+},
+
+{
+	"_id": "5ce77a75afdec884fab95999",
 	"classify": "［友链］",
 	"icon": "czs-link-l",
 	"sites": [{
