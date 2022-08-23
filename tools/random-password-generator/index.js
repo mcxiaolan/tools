@@ -61,7 +61,7 @@ function generatePassword() {
 
 
     if (!specialCharacters.checked && !includeNumbers.checked && !includeLetters.checked) {
-        errorMessage.innerHTML = "诶？空白密码也可以用吗qwq"
+        errorMessage.innerHTML = "密码已生成，但又好像没生成（"
         return;
     }
     if (!repeatCharacters.checked) {
