@@ -55,7 +55,7 @@ function generatePassword() {
     }
 
     if (pwLength < MIN || pwLength > MAX) {//Final validation in case something is wrong.
-        errorMessage.innerHTML = "您必须在" + MIN + " 和 " + MAX + "之间选择一个密码。";
+        errorMessage.innerHTML = "您的密码长度必须在 " + MIN + " 和 " + MAX + " 之间（包括4和256）。";
         return;
     }
 
